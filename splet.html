@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Domov</a>
+            <a href="splet.html" class="active"">Kaj je splet</a>
+            <a href="spletna_stran.html">Kaj je spletna stran</a>
+            <a href="izdelava_strani.html">Izdelava spletne strani</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+        <div class="container-img">
+            <div class="image">
+              <img src="splet.jpg" alt="Splet" class="slika">
+            </div>
+            <div class="text">
+                <h3>Kaj je splet</h3>
+                <p>Svetovni splet (ang. World Wide Web – WWW) je ena izmed 
+                najpomembnejših storitev interneta. Gre za množico 
+                dokumentov z večpredstavnostnimi vsebinami, ki so povezani 
+                med seboj s hiperpovezavami (ang. hyperlink). Pozneje so 
+                hiperbesedilu dodali še hipermedijo (ang. hypermedia) – slike, 
+                zvok, animacije in video, kar danes poznamo pod imenom 
+                spletni sestavek ali spletna stran.</p>
+            </div>
+        </div>
+        <div class="tex">
+            <h3>Spletni standardi</h3>
+            <p>Splet temelji na treh standardih.</p>
+            <ul>
+              <li>
+                <p><b>URL</b> (ang. »Uniform Resource Locator«, enolično kazalo virov) 
+                – za vsak dokument na spletu določa enolični »naslov«, 
+                na katerem ga lahko najdemo.</p>
+              </li>
+              <li>
+                <p><b>HTPP</b>(ang. »Hyper-Text Transfer Protocol«, protokol za prenos hiperteksta) 
+                – določa način, kako se sporazumevata spletni strežnik in brskalnik. </p>
+              </li>
+              <li>
+                <p><b>HTML</b> (ang. »Hyper Text Markup Language«, jezik za označevanje nadbesedila) – 
+                Določa skladnjo označevanja metabesedilnih elementov 
+                (naslovov, slik ipd., predvsem pa povezav do drugih dokumentov) v besedilu. </p>
+              </li>
+            </ul>
+        </div>
+    </body>
+</html>

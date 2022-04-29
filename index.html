@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body id="index">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Domov</a>
+            <a href="splet.html">Kaj je splet</a>
+            <a href="spletna_stran.html">Kaj je spletna stran</a>
+            <a href="izdelava_strani.html">Izdelava spletne strani</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+        <div class="container">
+          <img src="naslovna_slika.png" alt="Naslovna slika" style="width:100%;">
+          <div class="text-block">
+            <h2>UVOD</h2>
+            <p>Sem dijak Gimnazije Ravne in zanima me kako nastane spletna stran, 
+              zato sem se odločil, da bom pri informatiki naredil seminarsko nalogo o 
+              izdelavi spletne stani. V nalogi bom opisal, kako se programira in sam 
+              poizkusil narediti spletno stran. To bom naredil v programu 
+              Visual studio code oziroma VS code, ker se mi ta program zdi 
+              najboljši za programiranje. Opisal bom tudi kaj je spletna stran in 
+              omenil nekaj programov za delanje le teh. Opisal in priporočal bom tudi 
+              nekaj spletnih strani za lažje in boljšo programiranje</p>
+        </div>
+    </body>
+</html>

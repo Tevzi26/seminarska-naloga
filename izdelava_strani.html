@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Domov</a>
+            <a href="splet.html">Kaj je splet</a>
+            <a href="spletna_stran.html">Kaj je spletna stran</a>
+            <a href="izdelava_strani.html" class="active">Izdelava spletne strani</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+        <div class="basic-text">
+          <img src="html_css_js.png" alt="html css js" id="img">
+          <h2>KAKO SE LOTITI IZDELAVE SPLETNE STRANI</h2>
+          <h3 id="under-title">Izbira orodja</h3>
+          <p>Najprej si moramo izbrati orodje s pomočjo katerega bomo izdelali spletno stran. 
+            Na voljo je veliko platform na katerih lahko z lahkoto izdelamo spletno stran 
+            kot so <a href="https://wordpress.org/">WordPress</a>, 
+            <a href="http://www.wix.com">Wix.com</a>, <a href="https://www.shopify.com/">Shopify</a>, 
+            <a href="https://appery.io/">Appery.io</a> in še veliko drugih.</p>
+          <p>Lahko pa jo izdelamo popolnoma sami z pomočjo HTML-ja CSS-a in JavaScript.
+            Za lažje delo in lepše spletne strani lahko uporabimo razne knjižnice in okvirje (ang. »Frameworks«). 
+            Najbolj poznane so ReactJS, Vue.js, Angular in ExpressJS.
+            Če želimo uporabiti HTML, CSS in JS moramo uporabiti urejevalnik kode (ang. Code Editor) 
+            lahko bi uporabili beležnico ki je že nameščena na sistem Windows 
+            ampak je  programiranje veliko lažje v temu namenjenih programih. Teh programov je veliko 
+            ampak jaz bom uporabil Visual Studio Code. 
+          </p>
+          <h3>Visual Studio Code</h3>
+          <p>Visual Studi Code ali VS code je urejevalnik kode ki ga je ustvaril Microsoft. 
+            Prvič je bil omenjen 29. aprila 2015 objavljen za 
+            javnost pa 18. novembra istega leta. Narejen je za Windows, Linux in macOS. 
+            Vključuje podporo za odpravljanje napak, podpira orodje
+            Git in Github, označevanje sintakse, inteligentno dokončevaje kode 
+            in še veliko ostalih razširitev ki so jih razvili uporabniki 
+            VS code. Podpira tudi veliko različnih tem ki so jih prav tako ustvarili 
+            uporabniki. Omogoča tudi spreminjanje bližnjic na 
+            tipkovnici. Izvorna koda je brezplačna in odprtokodna (ang. »open source«) 
+            in jo lahko prenesemo iz uradne spletne strani 
+            in nato sledimo navodilom za namestitev.</p>
+          <img src="slika1.PNG" alt="VS code po prvem zagonu" class="example">
+          <p>Tako izgleda program VS Code ko ga zaženeš. Nato ustvariš novo mapo nekje na 
+            računalniku in potem klikneš <b>File</b> v zgornjem 
+            levem kotu in izbereš možnost <b>Open folder</b> in izbereš mapo ki si jo 
+            ustvaril prej. Nato kliknemo + in izberemo ime za novo 
+            datoteko na koncu imena pa dodamo .html. </p>
+          <h3>W3schools</h3>
+          <p><a href="https://www.w3schools.com/">W3schools</a> je spletna stran s katero si lahko 
+            pomagamo pri izdelave spletne strani. Na tej spletni strani je veliko gradiva za 
+            pomoč pri pisanju HTML kode in učenje spletnega razvijanja. S pomočjo te spletne strani 
+            se lahko naučiš HTML, CSS, JavaScript, 
+            PHP, Python in še veliko drugih programskih jezikov ki niso namenjeni razvijanju spletnih strani.</p>
+          <h3>Pisanje HTML-ja</h3>
+          <p>Zdaj lahko pričnemo z kodiranjem. Najprej dodamo nekaj osnovne kode ki bo nam pomagala razumeti kako deluje HTML.</p>
+          <div id="code">
+            <img src="slika2.PNG" alt="koda">
+            <img src="slika3.PNG" alt="izgled v brskalniku">
+          </div>
+          <h3>Dodajanje CSS-a</h3>
+          <p>Ker ta spletna stran izgleda dolgočasna lahko dodamo nekaj CSS kode da popestrimo izgled spletne strani. 
+            Najprej ustvarimo novo datoteko ki se konča z končnico .css. Nato moramo urediti HTML dokument da bo podpiral 
+            CSS, najprej glavo dodamo <b>link rel="stylesheet" type="text/css" href="style.css"</b>
+            ta del kode poskrbi da brskalnik prepozna datoteko style.css (lahko je imenovana tudi drugače) 
+            in da prepozna vrsto dokumenta. Če želimo bolj učinkovito in urejeno css kodo moramo elementom 
+            html kode dodati različne classe in id-je. Enak class lahko ima več elementov hkrati, 
+            vsak id pa mora biti unikaten. Z CSS-om lahko spreminjamo barve, fonte, velikost pisave, 
+            lahko poravnamo elemente na različne strani, lahko naredimo našo spletno stran odzivno za 
+            različne velikosti zaslonov kar je v zadnjih nekaj letih vedno bolj pomembno saj spletne strani 
+            odpiramo z različno velikimi monitorji in telefoni.</p>
+          </table>
+        </div>
+    </body>
+</html>

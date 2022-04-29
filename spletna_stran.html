@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Domov</a>
+            <a href="splet.html">Kaj je splet</a>
+            <a href="spletna_stran.html" class="active">Kaj je spletna stran</a>
+            <a href="izdelava_strani.html">Izdelava spletne strani</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+        
+        <div class="container-1">
+          <img src="search.png" alt="Search" style="width:100%;">
+          <div class="content">
+            <h2>KAJ JE SPLETNA STRAN</h2>
+            <p>Spletna stran (ang. »web page«) je dokument z hiperbesedilom ki ga prikaže 
+              spletni brskalnik. </p>
+          </div>
+        </div>
+        <div class="basic-text">
+          <p>Na spletni strani so lahko prikazane različne vsebine
+            kot so besedilo, slike, videoposnetki, zvočni posnetki, programi, povezave … 
+            Struktura spletne strani se sestavi s kodo HTML ki ni programski jezik ampak 
+            je opisni jezik, olepšamo jo pa lahko z kodo CSS ki prav tako ni programski 
+            jezik in z JavaScript-om ki pa je programski jezik, ki se uporablja tudi za 
+            druge namene ne samo za izdelavo spletnih strani. Več skupnih spletnih strani 
+            oblikuje spletišče. Da jo lahko objavimo potrebujemo domeno (npr. »www.google.com«) 
+            in gostovanje spletne strani.</p>
+          <h3>Kako je sestavljena osnovna spletna stran</h3>
+          <p>Spletne strani so večinoma zgrajene iz dveh delov frontend in backend. 
+            Frontend je vse kar vidimo na spletni stani kot so slike, besedila, videi itd. 
+            Backend je pa vse kar se dogaja v ozadju to je kot možgani spletne strani, 
+            na primer shranjevanje podatkov, pridobivanje podatkov in pošiljanje le teh v 
+            frontend, interakcije z API-ji (API – »Application Programming Interface«).</p>
+        </div>
+    </body>
+</html>
